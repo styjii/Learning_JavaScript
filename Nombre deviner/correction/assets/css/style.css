@@ -1,0 +1,86 @@
+body {
+    background: #113029;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    color: #8ba31f;
+    font-family: Arial;
+    font-weight: normal;
+}
+#formulaire::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#formulaire {
+    width: calc(100% - 100px);
+    height: 150px;
+    box-sizing: border-box;
+    background: #ebeef2;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+input[type='text'] {
+    display: block;
+    float: left;
+    font-size: 1rem;
+    width: calc(100% - 80px);
+    height: 40px;
+    border: 1px solid #808f80;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    outline: none;
+}
+input[type='text']:focus {
+    box-shadow: 0 0 5px #3d53e4;
+}
+input[type='submit'] {
+    display: block;
+    float: right;
+    font-size: 1rem;
+    width: 70px;
+    height: 40px;
+    color: #f5f5f5;
+    background: #4d60df;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 3px 0;
+    outline: none;
+}
+input[type='submit']:hover{
+    background: #3d53e4;
+}
+input[type='submit']:focus {
+    border: 2px solid #7e8ad779;
+}
+.error {
+    float: left;
+    display: block;
+    color: #788082;
+    font-size: 1rem;
+    padding: 10px 0;
+    margin: 0;
+}
+.instructions {
+    width: calc(100% - 100px);
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+.instruction {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+.plus {
+    background: #f67280;
+}
+.moins {
+    background: #ffa372;
+}
+.fini {
+    background: #0c9463;
+}

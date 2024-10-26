@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+h1, p {
+    font-family: Arial;
+    margin: 0;
+}
+button {
+    color: #110a0a9a;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 10px;
+    background: #e6c5ee9a;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 50px;
+}
+.dark {
+    color: #ffffff;
+    background: #112F41;
+}
+.dark button {
+    color: #ffffff;
+    background: #144098;
+}

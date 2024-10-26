@@ -1,0 +1,33 @@
+body {
+    background: #a4b4dd;
+    background-image: linear-gradient(to right, #ffffff, #7f7ac7);
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    color: #292424;
+}
+h1 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 2.2rem;
+}
+h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 15px 0;
+}
+#ville {
+    font-family: sans-serif;
+}
+#changer {
+    background: #7f7ac7;
+    background-image: linear-gradient(to right, #ced3e0, #c1bcf1);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4f5f7;
+    border: none;
+    padding: 10px 15px;
+}
